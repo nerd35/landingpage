@@ -273,4 +273,15 @@
     .footersection{
         height: 463px;
     }
+    .inputsection{
+        width: 500px;
+        margin-left: 300px;
+        background-color: #ffffff;
+
+    &::Placeholder {
+        font-family: Roboto;
+        font-size: 14px;
+        color: #b5d6ec;
+      }
   }
+}
