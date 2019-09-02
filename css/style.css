@@ -1,3 +1,7 @@
+body {
+  font-family: Roboto !important;
+}
+
 .headersection {
   width: 100%;
   height: 840px;
@@ -5,7 +9,6 @@
 }
 
 .headersection .headline {
-  font-family: Roboto;
   font-size: 62px;
   font-weight: 500;
   color: #3c88b5;
@@ -21,13 +24,13 @@
 .headersection .btn-primary {
   width: 160px;
   height: 44px;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.4px;
   text-align: center;
   color: #e8eff7;
   margin-left: 70px;
+  border: 1px solid #3c88b5;
   background-color: #3c88b5;
   border-radius: 0 !important;
 }
@@ -35,12 +38,12 @@
 .headersection .btn-primary1 {
   width: 160px;
   height: 44px;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.4px;
   text-align: center;
   color: #e8eff7;
+  border: 1px solid #3c88b5;
   background-color: #3c88b5;
   border-radius: 0 !important;
 }
@@ -48,7 +51,6 @@
 .headersection .btn-white {
   width: 160px;
   height: 44px;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: bold;
   line-height: 1.43;
@@ -73,7 +75,7 @@
 }
 
 .headersection .playline {
-  width: 360px;
+  width: 400px;
   height: 44px;
   color: #3c88b5;
 }
@@ -85,7 +87,6 @@
 
 .howitworks .howitheader {
   height: 72px;
-  font-family: Roboto;
   font-size: 54px;
   font-weight: 500;
   color: #3c88b5;
@@ -96,14 +97,12 @@
 }
 
 .howitworks .howittitle {
-  font-family: Roboto;
   font-size: 30px;
   font-weight: 500;
   color: #3c88b5;
 }
 
 .howitworks .howittext {
-  font-family: Roboto;
   font-size: 16px;
   line-height: 1.63;
   color: #3c88b5;
@@ -128,25 +127,24 @@
 }
 
 .contentsection .contenttext {
-  font-family: Roboto;
   font-size: 24px;
   line-height: 1.83;
   color: #3c88b5;
 }
 
 .benefitsection {
-  height: 1780px;
+  height: 1880px;
   background-color: #ffffff;
 }
 
 .benefitsection .benefitheader {
-  font-family: Roboto;
   font-size: 54px;
   font-weight: 500;
   color: #3c88b5;
 }
 
 .benefitsection .borderimg {
+  width: 450px;
   height: 268px;
   border-radius: 1px;
   border: solid 1px #3c88b5;
@@ -159,14 +157,12 @@
 }
 
 .benefitheadline {
-  font-family: Roboto;
   font-size: 30px;
   font-weight: 500;
   color: #3c88b5;
 }
 
 .benefitinfo {
-  font-family: Roboto;
   font-size: 18px;
   line-height: 1.67;
   color: #3c88b5;
@@ -178,7 +174,6 @@
 }
 
 .portfoliosection .portfolioheadline {
-  font-family: Roboto;
   font-size: 54px;
   font-weight: 500;
   color: #3c88b5;
@@ -218,7 +213,6 @@
 }
 
 .calltoactionsection .calltoactionhead {
-  font-family: Roboto;
   font-size: 50px;
   font-weight: 500;
   color: #3c88b5;
@@ -229,13 +223,11 @@
 }
 
 .calltoactionsection .inputsection::Placeholder {
-  font-family: Roboto;
   font-size: 14px;
   color: #b5d6ec;
 }
 
 .calltoactionsection .btnoutline {
-  font-family: Roboto;
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.4px;
@@ -264,7 +256,6 @@
 }
 
 .footersection .footerinfo {
-  font-family: Roboto;
   font-size: 14px;
   color: #e8eff7;
 }
@@ -286,21 +277,18 @@
 }
 
 .links {
-  font-family: Roboto;
   font-size: 18px;
   font-weight: bold;
   color: #e8eff7;
 }
 
 .links .footertitle {
-  font-family: Roboto;
   font-size: 30px;
   font-weight: bold;
   color: #e8eff7;
 }
 
 .links .footerlink {
-  font-family: Roboto;
   font-size: 16px;
   font-weight: bold;
   color: #e8eff7;
@@ -325,7 +313,7 @@
     height: 500px;
   }
   .benefitsection {
-    height: 1000px;
+    height: 1100px;
   }
   .portfoliosection {
     height: 840px;
@@ -339,7 +327,6 @@
     background-color: #ffffff;
   }
   .inputsection::Placeholder {
-    font-family: Roboto;
     font-size: 14px;
     color: #b5d6ec;
   }
