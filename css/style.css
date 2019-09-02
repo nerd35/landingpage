@@ -19,6 +19,7 @@
 }
 
 .headersection .btn-primary {
+  width: 160px;
   height: 44px;
   font-family: Roboto;
   font-size: 14px;
